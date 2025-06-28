@@ -1,0 +1,34 @@
+/* style.css - Custom Styling */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Buttons */
+a:hover, button:hover {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Resume Button */
+.download-btn {
+  background-color: #16a34a;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.75rem;
+  color: white;
+  font-weight: 600;
+}
+
+.download-btn:hover {
+  background-color: #15803d;
+}
+
+/* Profile Picture Styling */
+.profile-img {
+  width: 128px;
+  height: 128px;
+  border-radius: 9999px;
+  border: 4px solid #3b82f6;
+  object-fit: cover;
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+}
