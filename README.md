@@ -1,20 +1,26 @@
+# 🎓 CampusBridge
+
+CampusBridge is a simple full-stack student and college management system. It lets you add colleges and assign students to them. Built using **Node.js**, **Express.js**, **MongoDB**, and a clean **HTML/JS frontend**.
 
 ---
 
-## 🌐 Live Preview
+## 📌 Features
 
-> Coming soon on [Netlify](https://netlify.com) or [GitHub Pages](https://pages.github.com)
-
----
-
-## 📬 Contact
-
-- 📧 balaofficialdeveloper@gmail.com  
-- 🔗 [LinkedIn](https://www.linkedin.com/in/bala-anandan-856bb9371)  
-- 🐙 [GitHub](https://github.com/Bala-0611)
+- ✅ Add new colleges (name & location)
+- ✅ Add students and associate them with a college
+- ✅ Fetch & display college list dynamically
+- ✅ Modern frontend UI using HTML/CSS/JavaScript
+- ✅ Backend powered by Express.js and MongoDB
 
 ---
 
-## 📄 License
+## 🔧 Technologies Used
 
-This project is open-source and free to use for personal learning and portfolio purposes.
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB with Mongoose ODM
+
+---
+
+## 📁 Folder Structure
+
