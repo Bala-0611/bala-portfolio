@@ -11,7 +11,7 @@ export default function AboutSection() {
       const response = await fetch('/Bala_Anandan_Resume.pdf', { method: 'HEAD' });
       if (response.ok) {
         const link = document.createElement('a');
-        link.href = '/resume/Bala Anandan Resume.pdf';
+        link.href = 'public/resume/Bala Anandan Resume.pdf';
         link.download = 'Bala_Anandan_Resume.pdf';
         document.body.appendChild(link);
         link.click();
