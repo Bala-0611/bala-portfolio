@@ -8,10 +8,10 @@ export default function AboutSection() {
   const downloadResume = async () => {
     try {
       // Check if a static PDF file has been uploaded to the public directory
-      const response = await fetch('/Bala_Anandan_Resume.pdf', { method: 'HEAD' });
+      const response = await fetch('/resume/Bala Anandan Resume.pdf', { method: 'HEAD' });
       if (response.ok) {
         const link = document.createElement('a');
-        link.href = 'Bala Anandan Resume.pdf';
+        link.href = '/resume/Bala Anandan Resume.pdf';
         link.download = 'Bala_Anandan_Resume.pdf';
         document.body.appendChild(link);
         link.click();
