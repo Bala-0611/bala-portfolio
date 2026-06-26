@@ -52,7 +52,7 @@ export default function HomeSection({ onSetSection }: HomeSectionProps) {
         initial={{ opacity: 0, y: 30, scale: 0.95 }}
         animate={{ opacity: 1, y: 0, scale: 1 }}
         transition={{ type: "spring", stiffness: 120, damping: 14, delay: 0.2 }}
-        className="font-syne font-black text-3xl xs:text-4xl min-[380px]:text-5xl sm:text-6xl md:text-7xl lg:text-[3.8vw] xl:text-[4.2vw] tracking-tight leading-[0.95] flex flex-wrap items-baseline gap-x-2 sm:gap-x-3 mb-6 uppercase"
+        className="font-syne font-black text-2xl min-[380px]:text-3xl min-[480px]:text-4xl sm:text-6xl md:text-7xl lg:text-[3.8vw] xl:text-[4.2vw] tracking-tight leading-[0.95] flex flex-wrap items-baseline gap-x-2 sm:gap-x-3 mb-6 uppercase"
       >
         <span className="text-neutral-950 select-none sm:inline hidden">I'M</span>
         <span className="inline text-transparent bg-clip-text bg-gradient-to-r from-[#D09325] via-[#E5A93C] to-[#F3BC32] tracking-normal hover:scale-[1.01] transition-transform duration-500 cursor-default font-black drop-shadow-[0_1px_1px_rgba(0,0,0,0.15)] pb-1">
