@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Bala Anandan Portfolio",
+  "description": "A premium minimalist responsive single-page portfolio for Bala Anandan, a Full Stack Developer, showcasing server-side Node.js systems, Express REST APIs, SaaS integrations, and live client website deployments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
